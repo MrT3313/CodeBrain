@@ -1,4 +1,4 @@
 # Amazon Web Servers (AWS)
 
 ## Services
-[Lightsail](lightsail/__general__.md)
+[Lightsail](Lightsail/README.md)
