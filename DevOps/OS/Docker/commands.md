@@ -51,3 +51,5 @@
         </tr>
     </tbody>
 </table>
+
+list all containers `docker ps -a`

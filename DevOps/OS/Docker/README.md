@@ -10,6 +10,11 @@
 
 ---
 
+## Dependency Management
+1. OS Dependencies
+2. CLI Tool Dependencies
+3. Python Dependencies
+
 ## Architecture
 
 1. `Docker Daemon`

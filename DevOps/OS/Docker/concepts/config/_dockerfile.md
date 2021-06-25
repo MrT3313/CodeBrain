@@ -65,7 +65,14 @@ services:
 
 Used to separate `build time` & `run time` dependencies
 
-[?] - Utilize `Dockerfile` `Targets` to implement Multi-Stage Images
+- Utilize `Dockerfile` `Targets` to implement Multi-Stage Images
+
+##### Build Stage
+
+| command          | desc | 
+| ---              | ---  | 
+| `apt-get`        | command-line tool for handling packages (installing, removing, updating) |
+| `apt-get update` | ^ + updates all packages & their dependencies |
 
 ### Commands
 
