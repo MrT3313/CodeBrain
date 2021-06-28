@@ -22,21 +22,21 @@
 
 ## SSH Tunneling
 
-### _Built In Browser Based_
+### 1. Built In Browser Based
 
 - Easiest way to connect
 - Resources:
-    1. [Link](https://github.com/awsdocs/amazon-lightsail-developer-guide/blob/master/doc_source/lightsail-how-to-connect-to-your-instance-virtual-private-server.md)
+    - [Lightsail Developer Guide - Connect to Virtual Server](https://github.com/awsdocs/amazon-lightsail-developer-guide/blob/master/doc_source/lightsail-how-to-connect-to-your-instance-virtual-private-server.md)
 
-### Unique SSH Client
+### 2. Unique SSH Client
 
 - MacOS
     - native SSH client in terminal to connect to Linux or Unix based Lightsail instance
     - Resources:
-        1. [Link](https://github.com/awsdocs/amazon-lightsail-developer-guide/blob/master/doc_source/amazon-lightsail-ssh-using-terminal.md)
+        - [SSH Using Terminal](https://github.com/awsdocs/amazon-lightsail-developer-guide/blob/master/doc_source/amazon-lightsail-ssh-using-terminal.md)
 
 - Windows
     - [PuTTY]() to connect to your Linux or Unix Lightsail instance
     - Resources:
-        1. [Link](https://github.com/awsdocs/amazon-lightsail-developer-guide/blob/master/doc_source/lightsail-how-to-set-up-putty-to-connect-using-ssh.md)
+        - [Set-up PuTTY to Connect Using SSH](https://github.com/awsdocs/amazon-lightsail-developer-guide/blob/master/doc_source/lightsail-how-to-set-up-putty-to-connect-using-ssh.md)
 
