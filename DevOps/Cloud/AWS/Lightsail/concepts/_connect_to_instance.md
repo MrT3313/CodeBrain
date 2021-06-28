@@ -4,7 +4,7 @@
 
 > - Understand how your instance SSH was initially configured
 
-- add authorized_keys
+1. add authorized_keys _(if needed)_
     - Open Browser Based Terminal
     - `ls -a`: to list all files (includes hidden files)
     - `cd .ssh`: to enter the hidden folder
@@ -14,7 +14,7 @@
         - type `ctrl + c`: to exit `INSERT` mode
         - type `wq`: to write (save) & quit the vim editor
     
-- install `git` in instance (if blueprint/image does not include it)
+2. install `git` in instance _(if needed)_
     - Open Browser Based Terminal
     - `sudo yum install git` to install git into the instance 
         - 🚨 `apt-get` will NOT work on Amazon Linux based AMIs (Amazon Machine Images)
@@ -24,5 +24,19 @@
 
 ### _Built In Browser Based_
 
+- Easiest way to connect
+- Resources:
+    1. [Link](https://github.com/awsdocs/amazon-lightsail-developer-guide/blob/master/doc_source/lightsail-how-to-connect-to-your-instance-virtual-private-server.md)
 
 ### Unique SSH Client
+
+- MacOS
+    - native SSH client in terminal to connect to Linux or Unix based Lightsail instance
+    - Resources:
+        1. [Link](https://github.com/awsdocs/amazon-lightsail-developer-guide/blob/master/doc_source/amazon-lightsail-ssh-using-terminal.md)
+
+- Windows
+    - [PuTTY]() to connect to your Linux or Unix Lightsail instance
+    - Resources:
+        1. [Link](https://github.com/awsdocs/amazon-lightsail-developer-guide/blob/master/doc_source/lightsail-how-to-set-up-putty-to-connect-using-ssh.md)
+
