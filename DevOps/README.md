@@ -10,6 +10,7 @@ A software development methodology that combines software development (Dev) with
 6. Deploy
 7. Operate
 6. Monitor
+--> REPEAT
 
 [Roadmap](https://roadmap.sh/devops)
 
