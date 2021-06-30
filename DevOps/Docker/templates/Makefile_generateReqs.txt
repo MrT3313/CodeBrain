@@ -1,0 +1,2 @@
+genRequirements:
+	$(ENV_PIP) list --format=freeze > requirements/OUTPUT_makefileRequirements.txt

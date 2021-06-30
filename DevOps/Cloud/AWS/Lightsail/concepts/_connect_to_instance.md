@@ -31,10 +31,11 @@
 ### 2. Unique SSH Client
 
 - MacOS
+    > ssh -i ~/.ssh/id_rsa ec2-user@[INSTANCE_IP]
+
     - native SSH client in terminal to connect to Linux or Unix based Lightsail instance
     - Resources:
         - [SSH Using Terminal](https://github.com/awsdocs/amazon-lightsail-developer-guide/blob/master/doc_source/amazon-lightsail-ssh-using-terminal.md)
-
 - Windows
     - [PuTTY]() to connect to your Linux or Unix Lightsail instance
     - Resources:
