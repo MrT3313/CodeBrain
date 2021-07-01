@@ -66,8 +66,5 @@
 	- `which python`
 	
 7. Switch Environments
-	```cli
-	`workon <env_name>`
- 	`echo $VIRTUAL_ENV`
- 	```
- 
+	- `workon <env_name>`
+ 	- `echo $VIRTUAL_ENV`
