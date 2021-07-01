@@ -1,6 +1,6 @@
 # CREATE AWS Lightsail Instance
 
-1. Instance Location
+1. Pick Instance Location
 2. Pick Instance Image (AMI - Amazon Machine Image)
     - ✅ Linux / Unix
         - 🚨 Amazon Linux based AMI uses `yum` instead of `apt-get`
