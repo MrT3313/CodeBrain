@@ -1,5 +1,13 @@
 # CONNECT to AWS Lightsail Instance
 
+- ⭐️ https://github.com/yafangy/Tutorial-using-Amazon-AWS-EC2-run-scripts-GitHub/tree/master#method-2-clone-git-to-ec2-instance-recommended
+- when trying to SSH into instance you need to PRESENT your private key -> that is checked against the public key saved in the system
+- https://www.youtube.com/watch?v=kfWfj76-am8
+- https://stackoverflow.com/questions/38230253/multiple-users-connecting-to-aws-ec2-via-ssh
+- https://stackoverflow.com/questions/51507504/how-do-you-give-access-to-several-users-to-one-ec2-instance
+- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/managing-users.html
+---
+
 ## Prerequisites
 
 > - Understand how your instance SSH was initially configured

@@ -1,6 +1,7 @@
 # Amazon Web Servers (AWS)
 
-## Services
+- [Glossary](https://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
+- [Overview of AWS](https://d0.awsstatic.com/whitepapers/aws-overview.pdf)
 
-- [ec2](ec2/README.md)
-	- [Lightsail](ec2/Lightsail/README.md)
+---
+

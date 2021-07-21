@@ -1,0 +1,6 @@
+provider "aws" {
+  region                = "us-east-1"
+  version               = "~> 2.8"
+  access_key            = ""
+  secret_key            = ""
+}
