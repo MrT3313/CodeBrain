@@ -9,17 +9,24 @@
 | -f   | filename of the generated key file (to be discovered automatically sore in the default `.ssh` directory in your home directory) | 
 | -C   | comment: typically <login>@<hostname> of who generated the key
 
-## RSA
+## Types
+
+### RSA
 
 > ssh-keygen -a 100 -t rsa -f ~/.ssh/id_rsa -C john@example.com
 
-## Ed25519
+### Ed25519
 
 > ssh-keygen -a 100 -t ed25519 -f ~/.ssh/id_ed25519 -C john@example.com
 
-## DSA
+### DSA
 
-## ECDSA
+### ECDSA
 
+## Permissions
+
+- `.ssh` directory: 700 (drwx------)
+- public key (`.pub` file): 644 (-rw-r--r--)
+- private key (`id_rsa`): 600 (-rw-------)
 
 
