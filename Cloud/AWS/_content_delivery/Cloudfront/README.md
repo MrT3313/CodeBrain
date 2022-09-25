@@ -4,6 +4,9 @@
 
 - cached at the edge
 - you expore the cloudfront url to users
+- increased security
+- Lambda@Edge
+- Real-time metrics
 
 ## Origin
 

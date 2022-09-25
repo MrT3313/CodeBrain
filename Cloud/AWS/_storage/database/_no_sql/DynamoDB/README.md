@@ -1,3 +1,0 @@
-# DynamoDB
-
-> Serverless nosql database
