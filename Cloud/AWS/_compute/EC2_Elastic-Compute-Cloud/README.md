@@ -9,6 +9,8 @@
 		- isolates the virtual machines 👉 even though they are riding on the same infrastructure one EC2 is unaware of other EC2 instances on that host
 - There are some instances that are available that have been optomized for specific use cases / jobs
 
+----
+
 ## EC2 Instance Types
 
 > list: https://aws.amazon.com/ec2/instance-types/
@@ -65,6 +67,7 @@
 		- no upfront
 		- partial upfront
 		- all upfront
+	- Maximum Term: 3yr
 	- < 75% off
 	- types
 		- Reserved Instances: long workloads
@@ -84,6 +87,8 @@
 		- book an entire physical server w/ EC2 capacity fully dedicated to your use
 		- can help with `compliance requirements` & `existing server-bound software licenses`
 	- Instance:
+		- runs on the host
+	- no multi-tennancy
 
 - EXAMPLE: Hotel Room
 	- On-Demand: coming and staying in the resort whenever you like 👉 pay full price
@@ -92,4 +97,18 @@
 	- Dedicated: we book the entire building of the resort
 
 
+## Features
 
+### Elastic Load Balancing
+
+> Automatically disctirbutes your incoming application traffic across multiple EC2 instances
+
+- see `AWS > _network` directory
+### Auto Scaling (Horizontal)
+
+> Automatically adds or replaces EC2 instances across Availability Zones based on need and changing demand
+
+- Vertical Scaling
+	- "Scaling UP" : upgrading power (CPU || RAM) of an existing server
+- Horizontal Scaling
+	- "Scaling OUT"

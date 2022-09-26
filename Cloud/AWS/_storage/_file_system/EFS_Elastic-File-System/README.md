@@ -19,6 +19,10 @@
 - 🚨 only works on Linux based AMIs
 - 👀 only pay for what you actually USE
 	- vs EBS where you pay for how much you have provisioned
+- accessible across different availability zones in the same region
+- Use Cases:
+	- Main directories for business-critical apps
+	- Lift-and-shift existing enterprise apps
 - EFS Modes
 	- Performance Mode
 		1. General Purpose 👉 latency-sensitive use cases

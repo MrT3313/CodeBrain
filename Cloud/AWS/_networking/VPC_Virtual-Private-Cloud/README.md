@@ -1,8 +1,12 @@
 # Virtual Private Cloud (VPC)
 
-> a logically separated private network to deploy your resources
+> a logically separated private network to deploy your resources (think fence)
 
 - a VPC network is subdivided into public & private `subnets`
+- private virtual network
+- launch resources like EC2 instanes inside the VPC 
+- isolte and protect resources 
+- spans AZs within a region
 
 ## Internet Gateways
 

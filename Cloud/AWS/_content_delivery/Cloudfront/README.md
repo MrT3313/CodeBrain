@@ -1,12 +1,16 @@
 # Cloudfront
 
-> Content Delivery Network (CDN)
+> Content Delivery Network (CDN) that delivers data and applications globally with low latency
 
 - cached at the edge
 - you expore the cloudfront url to users
 - increased security
+	- DDoS
+- IP Blocking
+	- Geo-restriction prevents user sin certain countried from accessing content
 - Lambda@Edge
 - Real-time metrics
+- often used with S3 to deplo content globally
 
 ## Origin
 

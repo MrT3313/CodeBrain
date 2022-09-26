@@ -1,4 +1,5 @@
-# Fargate
+# Fargate 
+_technically a COMPUTE resource_
 
 > Serverless compute platform for containers
 > Supports ECS or EKS

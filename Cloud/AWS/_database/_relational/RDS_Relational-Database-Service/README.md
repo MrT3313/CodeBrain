@@ -9,7 +9,8 @@
 	- Oracle
 	- Microsoft SQL Server
 	- Aurora (AWS Proprietary DB)
-
+- high availbility & fault tolerance using Multi-AZ deployment option
+- launch read replicas across Regions in order to provide enhanced performance and durability
 ## Backups
 
 - automatically enabled

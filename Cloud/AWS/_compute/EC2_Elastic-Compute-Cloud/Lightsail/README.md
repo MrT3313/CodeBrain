@@ -1,6 +1,6 @@
 # Lightsail
 
-Virtual Private Server
+> compute service that is used to quickly launch preconfigued applications for small projects
 
 ---
 

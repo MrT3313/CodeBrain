@@ -1,7 +1,11 @@
 # Elastic Beanstalk
 
-> developer centric view of deploying an application on AWS
+> allows you to deploy web application and web services to AWS
 
+- orchestration service that provisions resources
+- automatically handles the deployment
+- monitors application health via a health dashboard
+- developer centric view of deploying an application on AWS
 - automatically handles:
 	- capacity adjustment
 	- load balancing

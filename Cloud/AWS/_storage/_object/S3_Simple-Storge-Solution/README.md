@@ -1,21 +1,51 @@
 # S3
 
+> Object :: Files  
+> Buckets :: Directories
+
+Durability = HIGH (11 9s)
+Availability = HIGH
 ## Storage Classes
 
 > All have different configurations & features in order to optimize cost based on needs
 
-| Class Name 								| Class Description  			                            | 
-| --- 		 								| --- 				 			                            | 
-| S3 Standard 			   					| 				     			                            | 
-| S3 Standard - Infrequent 					| store but not access frequently                           | 
-| S3 One Sone - Infrequent 					| store but not access frequently                           | 
-| S3 Glacier 								| long term archival                                        | 
-| S3 Glacier Deep Archive 				    | long term archival                                        |
-| S3 Intelligent Tiering 					| moving files across storage tiers based on usage patterns | 
+| Class Name 							| Class Description 							 | Durability | Availability | 
+| --- 	     							| ---				 							 | ---	        | ---       | 
+| S3 Standard 							| Frequently accessed data						 | 99.999999999  | 99.99%	|
+| S3 Intelligent-Tiering 				| Data w/ unknown || changing access patterns 	 | 99.999999999  | 99.99%	|
+| S3 Standard - Infrequent Access (IA)  | Long-lived data / infrequently accessed 		 | 99.999999999  | 99.99%	|
+| S3 One Zone - Infrequent Access (IA)  | 												 |				 |			|
+| S3 Glacier 							| Long-Term backups								 | 99.999999999  | 			|
+| S3 Glacier Deep Archive 				| Long-term data archival accesses 1x || 2x / yr | 99.999999999  | 			|												|				|			|
+| S3 Outposts							| data that needs to be kept local				 | 				 | 		    | 
+
 
 - S3 Standard
-- S3 Standard - Infrequent
-- S3
+	- General Purpose Storage
+	- Data stores across multiple AZ
+	- Low Latency and high throughput
+- S3 Intelligent-Tiering
+	- autoamtically moves data to the mot cost-effective storage class based on usage patterns
+	- automatic cost cavings
+	- no retrieval fees
+	data stored across multipls AZs
+- S3 Standard - Infrequent Access (IA)
+	- Data accesses less frequently but required rapid access if needed
+	data scored across multiple AZs cheeper than S3 Standard
+	- 
+- S3 One-Zone Infreqeunt Access (IA)
+- S3 Glacier
+	- long-term data storage and archival for lower costs
+	- data retrieval takes longer 
+	- 3 retrieval options: 1-5 min, 3-5hrs, 5-12hrs
+	- data stored across multiple AZs
+- S3 Glacier Deep Archive
+	- like S3 Glacier but longer access times
+	-  2 retrieval options: 12hrs, 38hrs
+	- data stored across multiple AZs
+- S3 Outposts
+	- object storage on-premises
+
 
 
 ## Buckets
