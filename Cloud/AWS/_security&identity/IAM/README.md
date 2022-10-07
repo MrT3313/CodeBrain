@@ -1,14 +1,24 @@
 # Identity & Access Management (IAM) - _Global Service_
 
-- Control access to AWS account
-- Create users (human & computer)
-- Create groups
-- Allow || deny access w/ [policies](./Policies_Roles.md) 
-- Policies to limit access
+> least privileges principle: only provide minimum access to so any individual task
+## Identity VS Access
 
-## Best Practices
+| Identities        | Access                        |
+| ---               | ---                           |                       
+| Root user         |  Policies                     | 
+| Individual User   |  AWS managed policies         | 
+| Groups            |  Customer managed policies    |    
+| Roles             |  Permission boundaries        | 
 
-- least privileges principle: only provide minimum access to so any individual task
+Identities: 
+
+## Authentication VS Authorization
+
+- Authentication: you are who you say you are (username & password)
+- Authorization: which services & resources the identity has access to
+
+----
+
 
 ## Organization
 
@@ -18,15 +28,21 @@
 
 - Upon creating your AWS ACCOUNT you are provided a ROOT USER login
 - The ROOT USER then creates different RESOURCE USERS (not official name) with their own login for specific services w/ restricted access
+- APPLICATION users can be made with their own IAM
 
 ## Groups
 
 - Users can be put into groups and policies can be applied to all users of that group
 
-## Permissions & Policies
+## Roles
+
+> define access permissions and are temporarily assumed by an IAM user || service
+
+## Policies
 
 > A user || group PERMISSIONS are controled through creating || applying POLICIES to a user or group. 
 
+- the actual encoding (JSON) of the permissing being granted to a IAM user, group, role
 - Policy Types
     - Managed Policies
         - predefined policies that can be applied to numerous users || groups
